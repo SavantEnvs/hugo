@@ -1,0 +1,3 @@
+<!DOCTYPE html>
+<html>  <head><title>  t </title><style> a { b: c } </style></head>
+<body><p class="a  b">x   y</p><script>var a = 1 ;</script><!-- c --></body></html>

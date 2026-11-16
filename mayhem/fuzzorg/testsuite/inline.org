@@ -1,0 +1,6 @@
+* DONE Links
+[[file:other.org][other]] [[#id][anchor]] <2024-01-02 Tue> \alpha
+#+INCLUDE: "inc.org"
+#+BEGIN_EXAMPLE
+raw
+#+END_EXAMPLE
