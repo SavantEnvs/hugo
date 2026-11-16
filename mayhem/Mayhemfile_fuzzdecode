@@ -1,0 +1,9 @@
+project: savantenvs/hugo
+target: fuzzdecode
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzzdecode/testsuite
+cmds:
+  - cmd: /mayhem/fuzzdecode
+    libfuzzer: true
+    timeout: 10

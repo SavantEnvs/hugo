@@ -1,0 +1,8 @@
+baseURL: https://example.org/
+title: S
+module:
+  mounts:
+    - source: content
+      target: content
+taxonomies:
+  tag: tags

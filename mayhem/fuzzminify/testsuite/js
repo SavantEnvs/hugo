@@ -1,0 +1,2 @@
+function add(a, b) { var unused = 1; return a + b; }
+const f = (x) => `t${x}`; if (true) { f(1) }

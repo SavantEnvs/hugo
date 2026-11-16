@@ -1,0 +1,24 @@
+#+TITLE: Notes
+#+AUTHOR: A. Writer
+#+OPTIONS: toc:nil
+
+* Heading one :tag:
+** TODO Sub heading
+Some *bold*, /italic/, =verbatim= and ~code~ text with a [[https://gohugo.io][link]].
+
+| Name  | Qty |
+|-------+-----|
+| apple |   3 |
+| pear  |   5 |
+
+#+begin_src go
+func main() { println("hi") }
+#+end_src
+
+- item one
+- item two
+  1. nested
+#+begin_quote
+Quoted text.
+#+end_quote
+[fn:1] A footnote.

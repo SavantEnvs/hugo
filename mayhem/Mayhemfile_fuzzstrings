@@ -1,0 +1,9 @@
+project: savantenvs/hugo
+target: fuzzstrings
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzzstrings/testsuite
+cmds:
+  - cmd: /mayhem/fuzzstrings
+    libfuzzer: true
+    timeout: 10

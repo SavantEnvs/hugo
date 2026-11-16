@@ -1,0 +1,9 @@
+project: savantenvs/hugo
+target: fuzztransform
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzztransform/testsuite
+cmds:
+  - cmd: /mayhem/fuzztransform
+    libfuzzer: true
+    timeout: 10

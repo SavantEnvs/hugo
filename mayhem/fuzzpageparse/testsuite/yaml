@@ -1,0 +1,6 @@
+---
+title: T
+date: 2024-01-02
+tags: [a, b]
+---
+Body {{< fig src="a.png" >}} and {{% note %}}x{{% /note %}}

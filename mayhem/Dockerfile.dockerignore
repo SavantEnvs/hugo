@@ -1,0 +1,10 @@
+# BuildKit prefers this over the repo-root .dockerignore, whose upstream rules drop
+# .git, .github, docs and *.md/*.txt. The commit image must keep all of them: the
+# grader uses .git and hugo's tests read testdata *.txt/*.md files.
+mayhem/build/
+*.o
+*.a
+*.so
+.DS_Store
+*.swp
+*~

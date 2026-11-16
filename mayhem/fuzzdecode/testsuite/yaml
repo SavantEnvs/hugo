@@ -1,0 +1,6 @@
+a: 1
+b:
+  - x
+  - y: z
+c: &anchor {k: v}
+d: *anchor

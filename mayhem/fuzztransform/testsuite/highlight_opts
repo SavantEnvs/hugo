@@ -1,0 +1,2 @@
+linenos=table,hl_lines=[1]
+print('x')

@@ -1,0 +1,25 @@
+title: Post
+date: 2018-02-01T10:00:00Z
+lastmod: "2019-03-04 05:06:07"
+slug: 2018-02-01-post
+url: /blog/post/
+aliases:
+  - /old
+  - /older/
+build:
+  list: never
+sitemap:
+  changefreq: daily
+cascade:
+  - params:
+      banner: x
+    target:
+      path: "/fuzz/**"
+      environment: production
+    sites:
+      matrix:
+        languages: ["nn"]
+        roles: ["guest"]
+  - sites:
+      complements:
+        versions: ["v1**"]
